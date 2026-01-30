@@ -1,0 +1,51 @@
+<h2>Nos Produits</h2>
+
+<div class="products">
+
+  <div class="card">
+    <img src="images/chaussure.jpg" alt="Chaussure">
+    <h3>Chaussure Nike</h3>
+    <p>Prix : 35 000 BIF</p>
+    <a class="btn" href="https://wa.me/25764289338?text=Bonjour%20Lepro%2C%20je%20veux%20commander%20Chaussure%20Nike" target="_blank">
+      Commander sur WhatsApp
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="images/parfum.jpg" alt="Parfum">
+    <h3>Parfum Original</h3>
+    <p>Prix : 20 000 BIF</p>
+    <a class="btn" href="https://wa.me/25764289338?text=Bonjour%20Lepro%2C%20je%20veux%20commander%20Parfum%20Original" target="_blank">
+      Commander sur WhatsApp
+    </a>
+  </div>
+
+    </div>.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+  margin-top:20px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.btn{
+  display:inline-block;
+  background:#25D366;
+  color:white;
+  padding:10px 15px;
+  text-decoration:none;
+  border-radius:10px;
+  margin-top:10px;
+}
