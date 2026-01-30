@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boutique Lepro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>🛍️ Boutique Lepro</h1>
+  <p>Bienvenue ! Choisis ton produit et commande sur WhatsApp.</p>
+</header>
+
+<main class="products">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300" alt="Produit 1">
+    <h2>Produit 1</h2>
+    <p class="price">5 000 BIF</p>
+    <a class="btn" href="https://wa.me/25700000000?text=Bonjour%20Lepro%2C%20je%20veux%20commander%20Produit%201" target="_blank">
+      Commander WhatsApp
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300" alt="Produit 2">
+    <h2>Produit 2</h2>
+    <p class="price">10 000 BIF</p>
+    <a class="btn" href="https://wa.me/25764289338?text=Bonjour%20Lepro%2C%20je%20veux%20commander%20Produit%202" target="_blank">
+      Commander WhatsApp
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300" alt="Produit 3">
+    <h2>Produit 3</h2>
+    <p class="price">15 000 BIF</p>
+    <a class="btn" href="https://wa.me/25700000000?text=Bonjour%20Lepro%2C%20je%20veux%20commander%20Produit%203" target="_blank">
+      Commander WhatsApp
+    </a>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 Boutique Lepro - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+}
